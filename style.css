@@ -32,3 +32,16 @@ body {
     width: 30%;
     background-image: url(resources/background-image.webp);
 }
+
+.sign-up-section {
+    height: 100%;
+    width: auto;
+
+    background-color: white;
+
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
