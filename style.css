@@ -80,3 +80,9 @@ form {
 
     border: 1px solid brown;
 }
+
+label {
+    display: block;
+    
+    border: 1px solid green;
+}
