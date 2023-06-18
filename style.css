@@ -45,3 +45,10 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+form {
+    width: 100%;
+    height: 35%;
+    
+    border: 1px solid red;
+}
