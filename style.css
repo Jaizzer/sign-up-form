@@ -73,3 +73,10 @@ form {
 
     border: 1px solid blue;
 }
+
+.input-container {
+    height: 30%;
+    width: 45%;
+
+    border: 1px solid brown;
+}
