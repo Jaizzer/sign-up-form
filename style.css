@@ -26,3 +26,9 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+.background-image {
+    height: 100%;
+    width: 30%;
+    background-image: url(resources/background-image.webp);
+}
