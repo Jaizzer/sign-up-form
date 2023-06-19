@@ -100,6 +100,9 @@ form {
 
 .input-container {
     height: 30%;
+    max-height: 78px;
+    min-height: 72px;
+    
     width: 45%;
 
     padding-right: 5%;
