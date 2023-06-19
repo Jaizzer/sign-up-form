@@ -86,6 +86,8 @@ form {
     height: 30%;
     width: 45%;
 
+    padding-right: 5%;
+
     border: 1px solid brown;
 
     display: flex;
@@ -107,7 +109,7 @@ label {
 
 input {
     height: 1.6rem;
-    width: 90%;
+    width: 100%;
 
     display: block;
 
@@ -117,7 +119,7 @@ input {
 
 .error-message {
     height: 1rem;
-    width: 90%;
+    width: 100%;
 
     border: 1px solid red;
 }
