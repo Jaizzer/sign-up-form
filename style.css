@@ -7,6 +7,7 @@
 
 :root {
     --main-color: #596D48;
+    --input-border-color: #E5E7EB;
 }
 
 html {
@@ -143,7 +144,7 @@ input {
 
     display: block;
 
-    border: 1px solid black;
+    border: 1px solid #E5E7EB;
     border-radius: 4px;
 }
 
