@@ -102,6 +102,7 @@ form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: space-between;
 
     border: 1px solid blue;
 }
