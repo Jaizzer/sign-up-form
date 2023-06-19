@@ -161,7 +161,7 @@ input {
 button[type="submit"] {
     background-color: var(--main-color);
 
-    border-radius: 3px;
+    border-radius: 5px;
 
     width: 189px;
     height: 25px;
