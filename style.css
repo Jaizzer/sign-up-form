@@ -79,6 +79,12 @@ form {
     justify-content: space-between;
 }
 
+.form-heading {
+    padding-top: 0.1%;
+
+    border: 1px solid blue;
+}
+
 .input-section {
     height: 90%;
     width: 100%;
