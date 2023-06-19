@@ -49,11 +49,6 @@ body {
     justify-content: center;
 }
 
-.text-1, .text-2, .form-heading {
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
 form {
     width: 100%;
     height: 55%;
@@ -63,6 +58,11 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.text-1, .text-2, .form-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .form-subcontainer {
