@@ -27,8 +27,6 @@ body {
     height: 90%;
     width: 90%;
 
-    border: 1px solid black;
-
     display: flex;
     flex-direction: row;
 
@@ -60,8 +58,6 @@ form {
     width: 100%;
     height: 60%;
 
-    border: 1px solid red;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,8 +79,6 @@ form {
     background-color: white;
     box-shadow: 1px 3px 6px rgb(180, 176, 176);
 
-    border: 1px solid green;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,8 +88,6 @@ form {
 
 .form-heading {
     padding-top: 0.1%;
-
-    border: 1px solid blue;
 }
 
 .input-section {
@@ -106,8 +98,6 @@ form {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
-
-    border: 1px solid blue;
 }
 
 .input-container {
@@ -119,8 +109,6 @@ form {
 
     padding-right: 5%;
 
-    border: 1px solid brown;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -128,8 +116,6 @@ form {
 
 label {
     display: block;
-
-    border: 1px solid green;
 
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -151,8 +137,6 @@ input {
 .error-message {
     height: 1rem;
     width: 100%;
-
-    border: 1px solid red;
 }
 
 .text-1, .text-2,
