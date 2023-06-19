@@ -140,6 +140,7 @@ input {
 
 .text-1, .text-2,
 .form-subcontainer,
-.login-prompt {
+.login-prompt, 
+.button-container {
     padding-left: 4%;
 }
