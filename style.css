@@ -169,3 +169,9 @@ button[type="submit"] {
     font-size: 1rem;
     color: white;
 }
+
+.login-prompt > a {
+    color: var(--main-color) ;
+
+    font-weight: 600;
+}
