@@ -67,6 +67,10 @@ form {
     font-weight: 600;
 }
 
+.text-1, .text-2 {
+    padding-right: clamp(30px, 10%, 180px);
+}
+
 .form-subcontainer {
     height: 90%;
     width: 100%;
