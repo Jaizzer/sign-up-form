@@ -7,7 +7,7 @@
 
 html {
     height: 100vh;
-    min-height: 500px;
+    min-height: 530px;
     width: 100vw;
 
     background-color: #f3f3f3;
@@ -102,7 +102,7 @@ form {
     height: 30%;
     max-height: 78px;
     min-height: 72px;
-    
+
     width: 45%;
 
     padding-right: 5%;
