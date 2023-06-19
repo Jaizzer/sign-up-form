@@ -88,6 +88,12 @@ label {
     display: block;
 
     border: 1px solid green;
+
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #535658;
 }
 
 input {
