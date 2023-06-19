@@ -86,7 +86,9 @@ form {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+
+    gap: 5%;
 }
 
 .form-heading {
