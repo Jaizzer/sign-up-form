@@ -137,3 +137,9 @@ input {
 
     border: 1px solid red;
 }
+
+.text-1, .text-2,
+.form-subcontainer,
+.login-prompt {
+    padding-left: 4%;
+}
