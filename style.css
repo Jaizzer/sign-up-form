@@ -6,7 +6,7 @@
 }
 
 :root {
-    --button-color: #596D48;
+    --main-color: #596D48;
 }
 
 html {
@@ -159,7 +159,7 @@ input {
 }
 
 button[type="submit"] {
-    background-color: var(--button-color);
+    background-color: var(--main-color);
 
     border-radius: 3px;
 
