@@ -73,6 +73,10 @@ form {
     box-shadow: 1px 3px 6px rgb(180, 176, 176);
 
     border: 1px solid green;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .input-section {
