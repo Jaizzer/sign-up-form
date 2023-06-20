@@ -10,6 +10,11 @@
     --input-border-color: #E5E7EB;
 }
 
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(resources/Norse-Bold.otf);
+}
+
 html {
     height: 100vh;
     min-height: 650px;
