@@ -51,7 +51,7 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    gap: 2%;
+    gap: 3%;
 }
 
 form {
@@ -62,6 +62,8 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    gap: clamp(30px, 10%, 30px);
 }
 
 .text-1, .text-2, .form-heading {
