@@ -179,3 +179,16 @@ button[type="submit"] {
 .login-prompt {
     max-width: 1115px;
 }
+
+@media (max-width: 1232px) {
+
+    body {
+        height: 90%;
+        width: 90%;
+
+        max-height: 90%;
+    
+        flex-direction: column;
+    }
+
+}
