@@ -25,6 +25,7 @@ html {
 
 body {
     height: 90%;
+    max-height: 580px;
     width: 90%;
 
     display: flex;
