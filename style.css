@@ -174,3 +174,9 @@ button[type="submit"] {
 
     font-weight: 600;
 }
+
+.text-1, .text-2,
+.input-section, 
+.login-prompt {
+    max-width: 1115px;
+}
