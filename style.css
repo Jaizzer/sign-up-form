@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     justify-content: center;
 
-    gap: 3%;
+    gap: 30px;
 }
 
 form {
