@@ -72,6 +72,11 @@ body {
     color: white;
 }
 
+.credits {
+    margin-top: auto;
+    color: white;
+}
+
 .sign-up-section {
     height: 100%;
     width: auto;
