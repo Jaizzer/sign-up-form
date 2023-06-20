@@ -36,10 +36,8 @@ body {
 
 .background-image {
     height: 100%;
-    width: 30%;
-    max-width: 350px;
+    width: 350px;
 
-    
     background-image: url(resources/background-image.webp);
 }
 
