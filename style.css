@@ -66,6 +66,12 @@ body {
     background-position: center;
 }
 
+.brand-name {
+    font-family: 'Norse-Bold';
+    font-size: 4rem;
+    color: white;
+}
+
 .sign-up-section {
     height: 100%;
     width: auto;
