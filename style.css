@@ -44,6 +44,11 @@ body {
     width: 350px;
 
     background-image: url(resources/background-image.webp);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .brand {
