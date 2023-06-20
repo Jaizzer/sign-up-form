@@ -138,6 +138,8 @@ input {
 .error-message {
     height: 1rem;
     width: 100%;
+
+    font-size: 0.8rem;
 }
 
 .text-1, .text-2,
