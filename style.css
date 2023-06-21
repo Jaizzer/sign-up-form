@@ -239,4 +239,10 @@ button[type="submit"] {
         background-color: #596D48;
         background-image: none;
     }
+
+    html {
+        height: 720px;
+
+        align-items: start;
+    }
 }
