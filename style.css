@@ -243,6 +243,6 @@ button[type="submit"] {
     html {
         height: 720px;
 
-        align-items: start;
+        align-items: center;
     }
 }
