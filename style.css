@@ -221,7 +221,7 @@ button[type="submit"] {
     max-width: 1115px;
 }
 
-@media (max-width: 1232px) {
+@media (max-width: 1100px) {
 
     body {
         height: 90%;
