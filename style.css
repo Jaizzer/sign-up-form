@@ -250,6 +250,11 @@ button[type="submit"] {
 @media(max-width: 698px) {
     html {
         height: 1150px;
+        align-items: start;
+    }
+
+    body {
+        margin-top: 36px;
     }
 
     .background-image {
