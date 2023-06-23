@@ -259,4 +259,9 @@ button[type="submit"] {
     .sign-up-section {
         justify-content: start;
     }
+    
+    .text-1 {
+        margin-top: 35px;
+    }
+
 }
