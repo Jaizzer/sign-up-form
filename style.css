@@ -250,6 +250,7 @@ button[type="submit"] {
 @media(max-width: 698px) {
     html {
         height: 1150px;
+        min-width: 380px;
         align-items: start;
     }
 
