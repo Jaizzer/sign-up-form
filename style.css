@@ -246,3 +246,9 @@ button[type="submit"] {
         align-items: center;
     }
 }
+
+@media(max-width: 698px) {
+    .background-image {
+        height: 64.79px;
+    }
+}
