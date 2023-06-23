@@ -251,4 +251,8 @@ button[type="submit"] {
     html {
         height: 1150px;
     }
+
+    .sign-up-section {
+        justify-content: start;
+    }
 }
