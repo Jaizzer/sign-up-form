@@ -252,6 +252,10 @@ button[type="submit"] {
         height: 1150px;
     }
 
+    .background-image {
+        height: 64.79px;
+    }
+
     .sign-up-section {
         justify-content: start;
     }
