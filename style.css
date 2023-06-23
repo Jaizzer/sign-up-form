@@ -259,9 +259,19 @@ button[type="submit"] {
     .sign-up-section {
         justify-content: start;
     }
-    
+
     .text-1 {
         margin-top: 35px;
+    }
+
+
+    form {
+        height: 650px;
+        max-height: none;
+
+        justify-content: start;
+        
+        gap: 25px;
     }
 
 }
