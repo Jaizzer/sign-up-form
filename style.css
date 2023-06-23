@@ -278,4 +278,9 @@ button[type="submit"] {
         height: 600px;
         max-height: none;
      }
+
+
+    .input-container {
+        width: 500px;
+    }
 }
