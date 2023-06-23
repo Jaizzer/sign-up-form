@@ -270,8 +270,12 @@ button[type="submit"] {
         max-height: none;
 
         justify-content: start;
-        
+
         gap: 25px;
     }
 
+    .form-subcontainer {
+        height: 600px;
+        max-height: none;
+     }
 }
