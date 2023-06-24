@@ -254,6 +254,10 @@ button[type="submit"] {
 
         margin: 0;
     }
+
+    .credits {
+        display: none;
+    }
 }
 
 @media(max-width: 698px) {
