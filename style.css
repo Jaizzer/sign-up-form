@@ -258,6 +258,17 @@ button[type="submit"] {
     .credits {
         display: none;
     }
+
+    .logo {
+        width: 52px;
+        height: 52px;
+    }
+    
+    .brand-name {
+        font-size: 2.5rem;
+    
+        margin-top: 10px;
+    }
 }
 
 @media(max-width: 698px) {
