@@ -238,12 +238,21 @@ button[type="submit"] {
 
         background-color: #596D48;
         background-image: none;
+
+        justify-content: center;
     }
 
     html {
         height: 720px;
 
         align-items: center;
+    }
+
+    .brand {
+
+        background-color: transparent;
+
+        margin: 0;
     }
 }
 
