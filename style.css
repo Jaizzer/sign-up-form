@@ -314,3 +314,7 @@ button[type="submit"] {
         width: 500px;
     }
 }
+
+.error-message {
+    color: red;
+}
