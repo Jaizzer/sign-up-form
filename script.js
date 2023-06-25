@@ -14,3 +14,21 @@ function showError(input, errorMessagePlaceholder) {
     }
 }
 
+
+// Add validation to individual input elements.
+inputElements.forEach(input => {
+    input.addEventListener("blur", () => {
+
+        // Select the corresponding error placeholder of the input.
+        let errorMessagePlaceholder = (input.parentNode).querySelector('.error-message');
+
+        // Remove error message if the input is valid.
+        if (input.validity.valid) {
+            errorMessagePlaceholder.textContent = "";
+        }
+        // Show error if the input is invalid. 
+        else {
+            showError(input, errorMessagePlaceholder);
+        }
+    });
+});
