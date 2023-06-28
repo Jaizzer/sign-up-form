@@ -34,8 +34,8 @@ inputElements.forEach(input => {
         }
     });
 
-    // Triggered when the user is currently typing on the current field.
-    input.addEventListener("input", () => {
+    // Triggered when the user is currently focused on the current field.
+    input.addEventListener("focus", () => {
 
         // Remove error messages while the user is typing.
         errorMessagePlaceholder.textContent = "";
