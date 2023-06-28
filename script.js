@@ -41,3 +41,6 @@ inputElements.forEach(input => {
         errorMessagePlaceholder.textContent = "";
     })
 });
+
+// Access the form.
+const form = document.querySelector('form');
