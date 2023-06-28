@@ -30,5 +30,12 @@ inputElements.forEach(input => {
         else {
             showError(input, errorMessagePlaceholder);
         }
-    });z
+    });
+
+    // Triggered when the user is currently typing on the current field.
+    input.addEventListener("input", () => {
+
+        // Remove error messages while the user is typing.
+        errorMessagePlaceholder.textContent = "";
+    })
 });
