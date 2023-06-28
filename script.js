@@ -44,3 +44,22 @@ inputElements.forEach(input => {
 
 // Access the form.
 const form = document.querySelector('form');
+
+// Prevent form submission if the user attempted to submit form with invalid inputs.
+form.addEventListener("submit", (event) => {
+
+    // Iterate throughout all input elements.
+    inputElements.forEach(input => {
+
+        // Select the corresponding error placeholder of the current input.
+        let errorMessagePlaceholder = (input.parentNode).querySelector('.error-message');
+
+        // If input has error, show corresponding error message and prevent form submission.
+        if (!input.validity.valid) {
+
+            showError(input, errorMessagePlaceholder);
+
+            event.preventDefault();
+        }
+    })
+});
