@@ -21,7 +21,9 @@ inputElements.forEach(input => {
     // Select the corresponding error placeholder of the input.
     let errorMessagePlaceholder = (input.parentNode).querySelector('.error-message');
 
+    // Triggered when the input loses focus (user clicks or tabs away from the current input)
     input.addEventListener("blur", () => {
+
         // Remove error message if the input is valid.
         if (input.validity.valid) {
             errorMessagePlaceholder.textContent = "";
