@@ -326,7 +326,7 @@ button[type="submit"] {
     .form-subcontainer,
     .login-prompt, 
     .button-container {
-        padding: 0 4%;
+        padding: 0 5%;
     }
 
     button[type="submit"] {
