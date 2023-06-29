@@ -14,7 +14,6 @@ function showError(input, errorMessagePlaceholder) {
     }
 }
 
-
 // Add validation to individual input elements.
 inputElements.forEach(input => {
 
@@ -65,6 +64,11 @@ form.addEventListener("submit", (event) => {
 
             showError(input, errorMessagePlaceholder);
 
+            event.preventDefault();
+        }
+        
+        // If password-confirmation has existing error (passwords do not match) prevent form submission.
+        if (input.id === 'password-confirmation' & errorMessagePlaceholder !== "") {
             event.preventDefault();
         }
     })
