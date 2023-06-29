@@ -92,21 +92,25 @@ function checkPassword(passwordConfirmation, errorMessagePlaceholder) {
 
     // Give immediate feedback whether confirm-password already matched the password or not.
     passwordConfirmation.addEventListener("input", ()  => {
+
         if (password.value === passwordConfirmation.value) {
             errorMessagePlaceholder.textContent = "";
         }
         else {
             errorMessagePlaceholder.textContent = "Password does not match.";
         }
-    })
+
+    });
 
     // Give immediate feedback whether password already matched the confirm-password or not.
     password.addEventListener("input", ()  => {
+
         if (password.value === passwordConfirmation.value) {
             errorMessagePlaceholder.textContent = "";
         }
         else if (password.value !== passwordConfirmation.value & passwordConfirmation.value !== "") {
             errorMessagePlaceholder.textContent = "Password does not match.";
         }
-    })
+
+    });
 }
