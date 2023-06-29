@@ -328,6 +328,10 @@ button[type="submit"] {
     .button-container {
         padding: 0 4%;
     }
+
+    button[type="submit"] {
+        width: 100%;
+    }
 }
 
 .error-message {
