@@ -21,25 +21,31 @@ inputElements.forEach(input => {
     // Select the corresponding error placeholder of the input.
     let errorMessagePlaceholder = (input.parentNode).querySelector('.error-message');
 
-    // Triggered when the input loses focus (user clicks or tabs away from the current input)
-    input.addEventListener("blur", () => {
+    if (input.id !== 'password-confirmation') {
 
-        // Remove error message if the input is valid.
-        if (input.validity.valid) {
+        // Triggered when the input loses focus (user clicks or tabs away from the current input)
+        input.addEventListener("blur", () => {
+
+            // Remove error message if the input is valid.
+            if (input.validity.valid) {
+                errorMessagePlaceholder.textContent = "";
+            }
+            // Show error if the input is invalid. 
+            else {
+                showError(input, errorMessagePlaceholder);
+            }
+        });
+
+        // Triggered when the user is currently focused on the current field.
+        input.addEventListener("focus", () => {
+
+            // Remove error messages while the user is typing.
             errorMessagePlaceholder.textContent = "";
-        }
-        // Show error if the input is invalid. 
-        else {
-            showError(input, errorMessagePlaceholder);
-        }
-    });
-
-    // Triggered when the user is currently focused on the current field.
-    input.addEventListener("focus", () => {
-
-        // Remove error messages while the user is typing.
-        errorMessagePlaceholder.textContent = "";
-    })
+        });
+    }
+    else {
+        checkPassword(input, errorMessagePlaceholder);
+    }
 });
 
 // Access the form.
@@ -63,3 +69,40 @@ form.addEventListener("submit", (event) => {
         }
     })
 });
+
+
+// This function checks whether passwords match.
+function checkPassword(passwordConfirmation, errorMessagePlaceholder) {
+
+    // Acces the password input.
+    const password = document.querySelector('#password');
+
+    // Add password and confirm-password similarity checker feature.
+    passwordConfirmation.addEventListener("blur", () => {
+
+        // Show error if passwords does not match.
+        if (password.value !== passwordConfirmation.value) {
+            errorMessagePlaceholder.textContent = "Password does not match.";
+        }
+    });
+
+    // Give immediate feedback whether confirm-password already matched the password or not.
+    passwordConfirmation.addEventListener("input", ()  => {
+        if (password.value === passwordConfirmation.value) {
+            errorMessagePlaceholder.textContent = "";
+        }
+        else {
+            errorMessagePlaceholder.textContent = "Password does not match.";
+        }
+    })
+
+    // Give immediate feedback whether password already matched the confirm-password or not.
+    password.addEventListener("input", ()  => {
+        if (password.value === passwordConfirmation.value) {
+            errorMessagePlaceholder.textContent = "";
+        }
+        else if (password.value !== passwordConfirmation.value & passwordConfirmation.value !== "") {
+            errorMessagePlaceholder.textContent = "Password does not match.";
+        }
+    })
+}
