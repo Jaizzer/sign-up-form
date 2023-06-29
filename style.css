@@ -317,6 +317,10 @@ button[type="submit"] {
         width: 500px;
         padding: 0;
     }
+
+    input {
+        width: 100%;
+    }
 }
 
 .error-message {
