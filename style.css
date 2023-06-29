@@ -315,6 +315,7 @@ button[type="submit"] {
 
     .input-container {
         width: 500px;
+        padding: 0;
     }
 }
 
