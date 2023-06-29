@@ -321,6 +321,13 @@ button[type="submit"] {
     input {
         width: 100%;
     }
+
+    .text-1, .text-2,
+    .form-subcontainer,
+    .login-prompt, 
+    .button-container {
+        padding: 0 4%;
+    }
 }
 
 .error-message {
