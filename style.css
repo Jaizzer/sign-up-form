@@ -317,4 +317,6 @@ button[type="submit"] {
 
 .error-message {
     color: red;
+    margin-top: 3px;
+    margin-left: 2px;
 }
