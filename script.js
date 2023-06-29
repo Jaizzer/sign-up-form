@@ -10,7 +10,7 @@ function showError(input, errorMessagePlaceholder) {
     }
     // If input is of wrong type, show respective message.
     else if (input.validity.typeMismatch) {
-        errorMessagePlaceholder.textContent = "Invalid input. Please enter a valid value."
+        errorMessagePlaceholder.textContent = "Please enter a valid value."
     }
 }
 
