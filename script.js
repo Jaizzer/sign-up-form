@@ -83,12 +83,12 @@ function checkPassword(passwordConfirmation, errorMessagePlaceholder) {
     // Acces the password input.
     const password = document.querySelector('#password');
 
-    // Add password and confirm-password similarity checker feature.
+    // Show error if password and confirm-password are blank.
     passwordConfirmation.addEventListener("blur", () => {
 
         // Show error if passwords does not match.
-        if (password.value !== passwordConfirmation.value) {
-            errorMessagePlaceholder.textContent = "Password does not match.";
+        if (password.value === passwordConfirmation.value & passwordConfirmation.value === "") {
+            errorMessagePlaceholder.textContent = "Don't leave this input blank.";
         }
     });
 
@@ -110,7 +110,7 @@ function checkPassword(passwordConfirmation, errorMessagePlaceholder) {
         if (password.value === passwordConfirmation.value) {
             errorMessagePlaceholder.textContent = "";
         }
-        else if (password.value !== passwordConfirmation.value & passwordConfirmation.value !== "") {
+        else if (password.value !== passwordConfirmation.value) {
             errorMessagePlaceholder.textContent = "Password does not match.";
         }
 
