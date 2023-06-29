@@ -20,6 +20,7 @@ inputElements.forEach(input => {
     // Select the corresponding error placeholder of the input.
     let errorMessagePlaceholder = (input.parentNode).querySelector('.error-message');
 
+    // Apply to all input elements except confirm password.
     if (input.id !== 'password-confirmation') {
 
         // Triggered when the input loses focus (user clicks or tabs away from the current input)
@@ -42,6 +43,7 @@ inputElements.forEach(input => {
             errorMessagePlaceholder.textContent = "";
         });
     }
+    // Apply only to the confirm password input element.
     else {
         checkPassword(input, errorMessagePlaceholder);
     }
