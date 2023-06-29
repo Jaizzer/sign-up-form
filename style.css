@@ -6,7 +6,7 @@
 }
 
 :root {
-    --main-color: #596D48;
+    --main-color: #ca159d;
     --input-border-color: #E5E7EB;
 }
 
@@ -239,7 +239,7 @@ button[type="submit"] {
         width: 100%;
         height: 10%;
 
-        background-color: #596D48;
+        background-color: var(--main-color);
         background-image: none;
 
         justify-content: center;
