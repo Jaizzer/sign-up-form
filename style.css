@@ -261,13 +261,13 @@ button[type="submit"] {
 
     .background-image {
         width: 100%;
-        height: 10%;
+        height: 14%;
 
         justify-content: center;
     }
 
     html {
-        height: 720px;
+        height: 800px;
 
         align-items: center;
     }
