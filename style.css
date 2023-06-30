@@ -198,6 +198,11 @@ button[type="submit"]:hover {
     background-color: #8113d4;
 }
 
+.credits a {
+    text-decoration: none;
+    color: white;
+}
+
 .error-message {
     height: 1rem;
     width: 100%;
