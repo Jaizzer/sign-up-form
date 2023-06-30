@@ -277,7 +277,7 @@ button[type="submit"] {
         height: 55px;
         width: 130px;
         background-color: rgba(3, 3, 3, 0.359);
-        
+
         margin: 0;
     }
 
@@ -298,6 +298,13 @@ button[type="submit"] {
 }
 
 @media(max-width: 698px) {
+
+    .background-image {
+        width: 100%;
+
+        height: 75px;
+    }
+
     html {
         height: 1150px;
         min-width: 380px;
@@ -306,10 +313,6 @@ button[type="submit"] {
 
     body {
         margin-top: 36px;
-    }
-
-    .background-image {
-        height: 64.79px;
     }
 
     .sign-up-section {
