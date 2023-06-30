@@ -198,9 +198,14 @@ button[type="submit"]:hover {
     background-color: #8113d4;
 }
 
-.credits a {
+a {
     text-decoration: none;
-    color: white;
+}
+
+.login-prompt > a {
+    color: var(--main-color) ;
+
+    font-weight: 600;
 }
 
 .credits > a:hover {
@@ -235,12 +240,6 @@ button[type="submit"] {
 
     font-size: 1rem;
     color: white;
-}
-
-.login-prompt > a {
-    color: var(--main-color) ;
-
-    font-weight: 600;
 }
 
 .text-1, .text-2,
