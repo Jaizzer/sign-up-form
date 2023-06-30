@@ -203,6 +203,14 @@ button[type="submit"]:hover {
     color: white;
 }
 
+.credits > a:hover {
+    text-decoration: underline;
+}
+
+.login-prompt > a:hover {
+    color: #8113d4;
+}
+
 .error-message {
     height: 1rem;
     width: 100%;
