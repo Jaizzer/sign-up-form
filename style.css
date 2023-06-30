@@ -194,6 +194,10 @@ input:focus {
     border: 2px solid var(--main-color);
 }
 
+button[type="submit"]:hover {
+    background-color: #8113d4;
+}
+
 .error-message {
     height: 1rem;
     width: 100%;
