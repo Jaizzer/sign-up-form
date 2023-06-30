@@ -198,7 +198,8 @@ button[type="submit"]:hover {
     background-color: #8113d4;
 }
 
-a {
+a:link, a:visited {
+    color: white;
     text-decoration: none;
 }
 
