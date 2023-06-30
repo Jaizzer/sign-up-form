@@ -274,8 +274,10 @@ button[type="submit"] {
 
     .brand {
 
-        background-color: transparent;
-
+        height: 55px;
+        width: 130px;
+        background-color: rgba(3, 3, 3, 0.359);
+        
         margin: 0;
     }
 
