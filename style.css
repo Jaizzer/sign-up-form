@@ -296,6 +296,10 @@ button[type="submit"] {
     
         margin-top: 10px;
     }
+
+    .input-section {
+        height: 80%;
+    }
 }
 
 @media(max-width: 698px) {
