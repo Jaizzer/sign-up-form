@@ -2,6 +2,8 @@
 
 This project features a responsive sign-up page with JavaScript validation to enhance user experience and ensure accurate data submission. The form includes various input fields such as username, email, and password, with real-time validation feedback provided to users.
 
+Check out this [Sample Sign-Up Page](https://jaizzer.github.io/sign-up-form/)
+
 ## Project Features
 
 - **Responsive Design:** The sign-up form adapts to different screen sizes, providing a consistent and user-friendly layout across various devices.
