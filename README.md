@@ -16,10 +16,9 @@ Check out this [Sample Sign-Up Page](https://jaizzer.github.io/sign-up-form/)
 
 ## Technologies Used
 
-- HTML5: The structure of the sign-up page and input fields.
-- CSS3: Styling for an appealing and responsive design.
+- HTML: The structure of the sign-up page and input fields.
+- CSS: Styling for an appealing and responsive design.
 - JavaScript: Real-time validation, error handling, and interactivity.
-- [Optional] Backend Technology: Depending on the project's scope, a backend technology (e.g., Node.js, PHP) can be integrated to handle form submissions and data processing.
 
 ## How to Use
 
