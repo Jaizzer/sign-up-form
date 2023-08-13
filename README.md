@@ -28,7 +28,7 @@ Check out this [Sample Sign-Up Page](https://jaizzer.github.io/sign-up-form/)
 4. If any input is incorrect or incomplete, appropriate error messages will guide you.
 5. Upon successful validation, you can proceed to submit the form.
 
-## Contribution
+## Contributing
 
 Contributions to this project are welcome! If you'd like to enhance the design, add new features, improve existing functionality, or optimize the code, feel free to submit pull requests.
 
